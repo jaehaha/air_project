@@ -1,0 +1,18 @@
+[project]
+name = "connect4-omx"
+version = "0.1.0"
+description = "Connect 4 with ROBOTIS OMX: MuJoCo simulation environment"
+requires-python = ">=3.10"
+dependencies = [
+    "mujoco>=3.3",
+    "numpy",
+    "pillow",
+]
+
+[project.optional-dependencies]
+vlm = [
+    "torch>=2.7",
+    "torchvision",
+    "transformers>=4.57",
+    "accelerate",
+]

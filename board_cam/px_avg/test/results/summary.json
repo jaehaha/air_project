@@ -1,0 +1,83 @@
+{
+  "method": "px_avg",
+  "seed": 0,
+  "image_size": [
+    960,
+    1280
+  ],
+  "boards": 50,
+  "parsed_boards": 50,
+  "exact_match_boards": 50,
+  "cell_accuracy": 1.0,
+  "recall": {
+    "empty": 1.0,
+    "red": 1.0,
+    "yellow": 1.0
+  },
+  "precision": {
+    "empty": 1.0,
+    "red": 1.0,
+    "yellow": 1.0
+  },
+  "confusion_rows_truth_cols_pred": {
+    "labels": [
+      "empty",
+      "red",
+      "yellow"
+    ],
+    "matrix": [
+      [
+        1119,
+        0,
+        0
+      ],
+      [
+        0,
+        487,
+        0
+      ],
+      [
+        0,
+        0,
+        494
+      ]
+    ]
+  },
+  "accuracy_by_fill": {
+    "0-13 discs": {
+      "boards": 18,
+      "cell_accuracy": 1.0
+    },
+    "14-27 discs": {
+      "boards": 17,
+      "cell_accuracy": 1.0
+    },
+    "28-42 discs": {
+      "boards": 15,
+      "cell_accuracy": 1.0
+    }
+  },
+  "mean_seconds_per_image": 0.0005691980430856347,
+  "class_margins": {
+    "saturation_empty_max": 0.0531265248185004,
+    "saturation_disc_min": 0.6959500891265598,
+    "green_red_ratio_red_max": 0.3040499108734403,
+    "green_red_ratio_yellow_min": 0.8619460921456529
+  },
+  "robustness_cell_accuracy": {
+    "grid_shift_px_worst_direction": {
+      "4": 1.0,
+      "8": 0.9923809523809524,
+      "12": 0.5457142857142858,
+      "16": 0.06999999999999999,
+      "20": 0.12666666666666668
+    },
+    "brightness_scale": {
+      "0.4": 1.0,
+      "0.6": 1.0,
+      "0.8": 1.0,
+      "1.2": 1.0,
+      "1.5": 1.0
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "full": {
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "mode": "full",
+    "seed": 0,
+    "boards": 50,
+    "parsed_boards": 50,
+    "exact_match_boards": 1,
+    "cell_accuracy": 0.7214285714285714,
+    "recall": {
+      "empty": 0.8534405719392315,
+      "red": 0.5626283367556468,
+      "yellow": 0.5789473684210527
+    },
+    "precision": {
+      "empty": 0.8761467889908257,
+      "red": 0.548,
+      "yellow": 0.5607843137254902
+    },
+    "confusion_rows_truth_cols_pred": {
+      "labels": [
+        "empty",
+        "red",
+        "yellow"
+      ],
+      "matrix": [
+        [
+          955,
+          87,
+          77
+        ],
+        [
+          66,
+          274,
+          147
+        ],
+        [
+          69,
+          139,
+          286
+        ]
+      ]
+    },
+    "accuracy_by_fill": {
+      "0-13 discs": {
+        "boards": 18,
+        "cell_accuracy": 0.7923280423280423
+      },
+      "14-27 discs": {
+        "boards": 17,
+        "cell_accuracy": 0.6778711484593837
+      },
+      "28-42 discs": {
+        "boards": 15,
+        "cell_accuracy": 0.6857142857142856
+      }
+    },
+    "mean_seconds_per_image": 2.008634744118899
+  },
+  "crop": {
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "mode": "crop",
+    "seed": 0,
+    "boards": 50,
+    "parsed_boards": 50,
+    "exact_match_boards": 8,
+    "cell_accuracy": 0.8914285714285715,
+    "recall": {
+      "empty": 0.9535299374441466,
+      "red": 0.8213552361396304,
+      "yellow": 0.819838056680162
+    },
+    "precision": {
+      "empty": 0.9467613132209406,
+      "red": 0.8264462809917356,
+      "yellow": 0.8282208588957055
+    },
+    "confusion_rows_truth_cols_pred": {
+      "labels": [
+        "empty",
+        "red",
+        "yellow"
+      ],
+      "matrix": [
+        [
+          1067,
+          27,
+          25
+        ],
+        [
+          28,
+          400,
+          59
+        ],
+        [
+          32,
+          57,
+          405
+        ]
+      ]
+    },
+    "accuracy_by_fill": {
+      "0-13 discs": {
+        "boards": 18,
+        "cell_accuracy": 0.943121693121693
+      },
+      "14-27 discs": {
+        "boards": 17,
+        "cell_accuracy": 0.8697478991596639
+      },
+      "28-42 discs": {
+        "boards": 15,
+        "cell_accuracy": 0.8539682539682542
+      }
+    },
+    "mean_seconds_per_image": 1.8400950411846861
+  },
+  "rows": {
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "mode": "rows",
+    "seed": 0,
+    "boards": 50,
+    "parsed_boards": 49,
+    "exact_match_boards": 28,
+    "cell_accuracy": 0.967444120505345,
+    "recall": {
+      "empty": 0.9937388193202147,
+      "red": 0.9271948608137045,
+      "yellow": 0.945031712473573
+    },
+    "precision": {
+      "empty": 0.9849290780141844,
+      "red": 0.9516483516483516,
+      "yellow": 0.9410526315789474
+    },
+    "confusion_rows_truth_cols_pred": {
+      "labels": [
+        "empty",
+        "red",
+        "yellow"
+      ],
+      "matrix": [
+        [
+          1111,
+          3,
+          4
+        ],
+        [
+          10,
+          433,
+          24
+        ],
+        [
+          7,
+          19,
+          447
+        ]
+      ]
+    },
+    "accuracy_by_fill": {
+      "0-13 discs": {
+        "boards": 18,
+        "cell_accuracy": 0.9920634920634921
+      },
+      "14-27 discs": {
+        "boards": 17,
+        "cell_accuracy": 0.9691876750700279
+      },
+      "28-42 discs": {
+        "boards": 14,
+        "cell_accuracy": 0.9336734693877552
+      }
+    },
+    "mean_seconds_per_image": 1.325017282362096
+  }
+}
